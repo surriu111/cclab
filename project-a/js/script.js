@@ -229,6 +229,9 @@ function keyPressed() {
     if (keyCode == SHIFT) {
         bigger = 0.1 + bigger
     }
+    if (bigger > 0.5) {
+        bigger = bigger - 0.6
+    }
 }
 
 function updateText() {
