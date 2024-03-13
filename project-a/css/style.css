@@ -1,6 +1,6 @@
 body {
-    background-color: white;
-    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 7, 45);
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
 }
@@ -25,15 +25,15 @@ body {
 }
 
 .red {
-    color: coral;
+    color: rgb(80, 87, 186);
 }
 
 .green {
-    color: aquamarine;
+    color: rgb(46, 45, 124);
 }
 
 .yellow {
-    color: gold;
+    color: rgb(37, 28, 90);
 }
 
 
@@ -71,14 +71,14 @@ body {
     right: 30px;
     top: 30px;
     padding: 10px 20px;
-    color: dimgrey;
-    border: solid dimgrey 0.5px;
+    color: rgb(21, 32, 98);
+    border: solid rgb(44, 28, 68) 0.5px;
     font-size: 0.7em;
     font-weight: bold;
     text-decoration: none;
 }
 
 #home-button a:hover {
-    background-color: coral;
-    color: black;
+    background-color: rgb(48, 45, 81);
+    color: rgb(19, 16, 52);
 }
