@@ -230,7 +230,7 @@ function keyPressed() {
         bigger = 0.1 + bigger
     }
     if (bigger > 0.5) {
-        bigger = bigger - 0.6
+        bigger = bigger - 0.5
     }
 }
 
