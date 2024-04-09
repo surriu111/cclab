@@ -115,8 +115,7 @@ class YourNameDancer {
     this.legx21 = - (-40 + 30 * sin(frameCount / 30)) - 10
     this.legy21 = 100 + 10 * sin(frameCount / 30) + 20
 
-    this.x1 = this.x1 + 1
-    this.y1 = this.y1 + 1
+
   }
   display() {
     // the push and pop, along with the translate 
@@ -133,7 +132,7 @@ class YourNameDancer {
     // ⬇️ draw your dancer from here ⬇️
     //body
     noStroke()
-    translate(this.x1, this.y1)
+
     push()
     //leg
 
