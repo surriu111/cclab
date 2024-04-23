@@ -1,0 +1,21 @@
+#p5-canvas-container {
+
+    width: 80%;
+    height: 100px;
+
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+body {
+    background-color: #b4dbcf46;
+}
+
+h1 {
+    color: #22483c;
+    text-align: center;
+}

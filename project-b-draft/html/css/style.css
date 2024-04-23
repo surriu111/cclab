@@ -1,0 +1,106 @@
+body {
+    background-color: #ddd7bd51;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 50px;
+    color: rgba(49, 14, 20, 0.858);
+}
+
+
+p {
+    text-align: center;
+    margin: 20px;
+    color: rgba(40, 12, 5, 0.858);
+    font-size: 20px;
+}
+
+
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(40, 12, 5, 0.858);
+}
+
+
+#mainFlexContainer {
+    /* background-color: rgba(240, 255, 255, 0); */
+    display: flex;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.relative-div {
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: #dbd5d2;
+    position: relative;
+}
+
+.green {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background: #743e3e;
+    position: relative;
+
+    h2 {
+        color: rgb(240, 219, 214);
+        text-align: center;
+    }
+
+
+}
+
+.blue {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background: #00362be4;
+    position: relative;
+
+    h2 {
+        color: rgb(215, 239, 232);
+        text-align: center;
+    }
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: 200px;
+}
+
+.red {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background: #215674;
+    position: relative;
+
+    h2 {
+        color: rgb(200, 221, 236);
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    /* CSS rules */
+    #mainFlexContainer {
+        flex-direction: column;
+    }
+
+}

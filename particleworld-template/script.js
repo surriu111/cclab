@@ -1,13 +1,8 @@
 // CCLab Mini Project - 9.R Particle World Template
 
-let NUM_OF_PARTICLES = 1000; // Decide the initial number of particles.
+let NUM_OF_PARTICLES = 100; // Decide the initial number of particles.
 
 let particles = [];
-// let colors = [
-//   color("#3F51B5"),
-//   color("#9C27B0"),
-//   color("#E91E63")
-// ];
 
 function setup() {
   let canvas = createCanvas(800, 600);
@@ -37,12 +32,13 @@ class Particle {
     this.x = startX;
     this.y = startY;
     this.dia = random(5, 100);
-    this.r = 0
+    this.r = 225
     this.g = 0
-    this.b = random(0, 255)
-    this.xSpd = random(-5, 5);
-    this.ySpd = random(0, 5);
+    this.b = random(0, 100)
+    this.xSpd = random(-2, 2);
+    this.ySpd = random(-2, 2);
     this.trans = 30
+
 
   }
   // methods (functions): particle's behaviors
@@ -50,10 +46,15 @@ class Particle {
 
     this.x += this.xSpd;
     this.y += this.ySpd;
-    if (this.x > width + 100 || this.x < -100) {
+    this.distance = Math.sqrt((this.x - 400) ** 2 + (this.y - 300) ** 2);
+    // if (this.x > width + 100 || this.x < -100) {
+    //   this.x = 400
+    // }
+    // if (this.y > height + 100 || this.y < -100) {
+    //   this.y = 300
+    // }
+    if (this.distance > 70) {
       this.x = 400
-    }
-    if (this.y > height + 100 || this.y < -100) {
       this.y = 300
     }
     this.trans = this.trans + 0.1

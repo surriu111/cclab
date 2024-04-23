@@ -1,7 +1,45 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
+
 }
+
+h1 {
+  text-align: center;
+}
+
 canvas {
   display: block;
+}
+
+#mainFlexContainer {
+  background-color: azure;
+  display: flex;
+  width: 100%;
+  max-width: 2000px;
+  margin: auto;
+  flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+
+  /* CSS rules */
+  #mainFlexContainer {
+    flex-direction: column;
+  }
+
+}
+
+.intro {
+  order: 1;
+}
+
+#mainFlexContainer {
+  order: 3;
+}
+
+.credits {
+  order: 2;
+  ;
 }
