@@ -5,17 +5,23 @@
 
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 17%;
     transform: translate(-50%, -50%);
 
     text-align: center;
 }
 
 body {
-    background-color: #b4dbcf46;
+    background-color: #86a7b846;
 }
 
 h1 {
-    color: #22483c;
+    color: #0c3d4a;
     text-align: center;
+}
+
+.relative-div {
+    left: 100px;
+    position: relative;
+    top: 100px;
 }

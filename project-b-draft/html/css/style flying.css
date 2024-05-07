@@ -1,3 +1,28 @@
 body {
-    background-color: rgb(231, 227, 215);
+    background-color: #4b5f68ce;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+#p5-canvas-container {
+
+    width: 80%;
+    height: 100px;
+
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    /* transform: translate(-50%, -50%); */
+
+    text-align: center;
+}
+
+.text1 {
+    left: 50%;
+    top: 20%;
 }
