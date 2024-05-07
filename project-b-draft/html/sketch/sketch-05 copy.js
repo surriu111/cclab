@@ -49,7 +49,7 @@ function draw() {
       }
       img.updatePixels();
       background(0);
-      image(img, 0, 0);
+      image(img, 0, 0, 700, 700);
     } else {
       for (let y = 0; y < img.height; y += gridSize) {
         for (let x = 0; x < img.width; x += gridSize) {
@@ -60,7 +60,7 @@ function draw() {
 
           fill(r, g, b);
           noStroke();
-          rect(x + random(-mouseX, mouseX), y, gridSize, gridSize);
+          rect(x + random(-mouseX, mouseX), y + random(-5, 5), gridSize, gridSize);
           // push the particle
         }
       }
