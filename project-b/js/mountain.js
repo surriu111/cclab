@@ -93,7 +93,12 @@ function draw() {
 
 function keyPressed() {
   //
-
+  for (let i = 0; i < 10; i++) {
+    let x = random(500, 600);
+    let y = random(90, 110);
+    let dia = random(10, 30);
+    balls.push(new Ball(x, y, dia));
+  }
 
   if (key == "a") {
     sound3.play();
@@ -214,12 +219,7 @@ class Ball {
   }
 }
 
-function waterfall() {
-  for (let i = 0; i < 10; i++) {
-    let x = random(500, 600);
-    let y = random(90, 110);
-    let dia = random(10, 30);
-    balls.push(new Ball(x, y, dia));
-  }
-}
+// function waterfall() {
+
+// }
 
