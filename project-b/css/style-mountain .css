@@ -4,16 +4,24 @@
 
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 18%;
     transform: translate(-50%, -50%);
 
     text-align: center;
 }
 
 h1 {
+    font-size: 32px;
     color: aliceblue;
     text-align: center;
+    text-decoration: none;
     font-family: cursive;
+}
+
+h1:hover {
+
+    color: rgb(146, 16, 16);
+    text-decoration: none;
 }
 
 body {

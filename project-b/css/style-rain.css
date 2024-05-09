@@ -27,7 +27,13 @@ h1 {
     color: aliceblue;
     text-align: center;
     font-family: cursive;
-    z-index: 12;
+    z-index: 32px;
+}
+
+h1:hover {
+
+    color: rgb(146, 16, 16);
+    text-decoration: none;
 }
 
 .image-container {
