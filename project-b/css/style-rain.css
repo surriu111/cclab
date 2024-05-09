@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    z-index: 11;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    top: 100px;
+    z-index: 0;
+
+}
+
+#p5-canvas-container {
+
+    width: 80%;
+    height: 100px;
+
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+    z-index: 12;
+}
+
+.image-container {
+    position: absolute;
+    top: 24%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* .image-container1 {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    z-index: -100
+} */
+
+.image-container2 {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    z-index: 0
+}
+
+.image-container3 {
+    position: absolute;
+
+}
+
+/* calc(50% + 200px); */

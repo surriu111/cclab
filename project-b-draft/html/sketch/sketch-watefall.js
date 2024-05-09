@@ -7,11 +7,11 @@ let sound1, sound2, sound3, sound4, sound5, sound6, sound7, sound8, sound9, soun
 let sound20;
 
 function preload() {
-  img = loadImage('sketch/waterfall1.png');
+  img = loadImage('jpg/heijin.png');
+
   img1 = loadImage('sketch/bird.png');
-  img2 = loadImage('sketch/cliff.png');
-  sound1 = loadSound("assets/beat.mp3");
-  sound2 = loadSound("assets/kick.mp3");
+  // img2 = loadImage('sketch/cliff.png');
+
   sound3 = loadSound("assets/NYU Shanghai Qiantan Campus 16.m4a");
   sound4 = loadSound("assets/y1887.wav");
   sound5 = loadSound("assets/NYU Shanghai Qiantan Campus 17.m4a");
